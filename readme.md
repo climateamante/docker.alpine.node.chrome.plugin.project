@@ -1,6 +1,6 @@
 # minimal: chrome plugin development
 > template structure for building MVP chrome plugins
-> use as an extremely small and simple script, or build a full web app with frameworks.
+- use as an extremely small and simple script, or build a full web app with frameworks.
 
 ## alpine.node: docker build 
 - docker: 19.03.8 (build afacb8b)
