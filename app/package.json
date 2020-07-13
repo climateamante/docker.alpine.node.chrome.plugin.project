@@ -1,0 +1,17 @@
+{
+  "name": "chrome.extension.webpack.development.workflow",
+  "version": "0.0.1",
+  "description": "description chrome extension workflow",
+  "created": "07/12/2020",
+  "main": "index.js",
+  "private": true,
+  "keywords": [],
+  "scripts": {},
+  "author": "none",
+  "license": "none",
+  "devDependencies": {
+    "crx-hotreload": "^1.0.4",
+    "webpack": "^4.43.0"
+  },
+  "dependencies": {}
+}

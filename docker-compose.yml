@@ -1,0 +1,28 @@
+# docker-engine: 19.03.0+
+# docker-compose.yml: preferes spaces over tabs
+
+version: '3.8'
+
+services:
+
+  node.app:
+    container_name: alpine.node.chrome.app.dev
+    volumes:
+        - ./app:/var/www/app/
+    build:
+        labels:
+            alpine.node.chrome.app.description: "template for boilerplate for chrome plugin development"
+        context: ./
+        dockerfile: ./dockerfiles/alpine.node.dockerfile.sh
+              
+
+    env_file:
+        - ./build.env
+    command: /bin/ash
+    
+    image: researchranks/alpine.node:alpine.3.11.6.node.12.18.12
+    expose:
+        - 8080
+
+    ports:
+        - 80:8080

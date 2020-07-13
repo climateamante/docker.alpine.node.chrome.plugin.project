@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "name: minimal",
+    "version": "0.0.1",
+    "description": "description: skeleton structure for scaffolding a chrome plugin",
+
+
+    "browser_action": {
+        "default_popup" : "html/default.html",
+        "default_icon" : "images/icon.32.png"
+    },
+
+
+    "background" : {
+        "scripts" : ["/js/crx.hot.reload.1.0.4.js"]
+    },
+
+    "icons": {
+      "32": "images/icon.32.png",
+      "128": "images/icon.128.png"
+    }
+
+}
