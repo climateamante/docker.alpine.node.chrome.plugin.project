@@ -24,7 +24,7 @@
  - ``Docker run wants absolute paths``
  - ``docker-compose is just a stand-in for the docker-engine client``
  - Start with ``docker-compose up``
- - Otherwise use our custom bash command ``dockr`` for complex docker shortcuts
+ - Otherwise use our custom bash command [``dockr``](https://github.com/climateamante/dockr) for complex docker shortcuts
 
 ```bash
 docker run \
