@@ -26,7 +26,7 @@
 > deliverable binary for chrome `.crx`
 
 * `/src`
- - `/css`
- - `/html`
- - `/images`
- - `/js`
+  - `/css`
+  - `/html`
+  - `/images`
+  - `/js`
