@@ -22,10 +22,10 @@
 
 
 ## folder structure
-- `/build`
+* `/build`
 > deliverable binary for chrome `.crx`
 
-- `/src`
+* `/src`
  - `/css`
  - `/html`
  - `/images`
